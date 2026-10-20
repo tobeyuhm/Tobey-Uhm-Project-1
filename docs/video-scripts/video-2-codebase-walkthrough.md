@@ -2,7 +2,7 @@
 
 **Title for YouTube:** JOBY Project 1 — Video 2: Codebase and Validation Walkthrough
 **On screen:** webcam thumbnail, VS Code with `Joby-research` open, and a terminal at the repo root.
-**About 310 spoken words.** At a slow pace (~110 words a minute) that is about 2:50 of talking, which leaves about 2 minutes for scrolling and letting the tests run.
+**About 486 spoken words.** At a slow pace (~110 words a minute) that is about 4:25 of talking. Keep the scrolling and test runs quick so you finish before 5:00.
 **Before recording:** write and commit `docs/locked-prediction.md`.
 
 ---
@@ -39,4 +39,14 @@ My riskiest claim is that the price needs more scale than the evidence supports.
 
 One failure: on a fresh install the analysis crashed on a Windows text-encoding error. I fixed it and reran it clean. The biggest remaining risk is that the fleet ramp is my judgment.
 
-**[3:55]** To reproduce it, clone the repo, install the requirements, and run `python analysis.py`. *(stop by about 4:30)*
+**[3:55] On screen: `docs/validation-and-ai-use.md`, Section 4A reconciliation**
+
+The locked test also showed me a weakness in my own model. My cost of revenue is a percentage of revenue, so when the fare drops, costs drop too. In real life, pilot pay, maintenance and charging cost per flight hour don't fall when fares fall. So my model probably understates how bad a fare cut would be. The next fix is to split the cost into a fixed cost per flight hour plus a margin.
+
+**[4:20] On screen: `README.md`, setup section**
+
+The test also gave me a new trigger. Value hits zero at about $2,390 per flight hour, only about 4% below my plan. So once Joby reports real fares, that's the first number I'll check.
+
+**[4:40] On screen: terminal**
+
+To reproduce everything, clone the repo, make a virtual environment, install the requirements, run `python analysis.py`, and then run the tests. *(stop by about 4:55)*
