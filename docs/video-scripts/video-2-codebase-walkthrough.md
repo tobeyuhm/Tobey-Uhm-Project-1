@@ -33,7 +33,7 @@ Now the tests. There are 23. They reproduce the Week 3 known answer, $27.50 a sh
 
 **[2:45] On screen: `docs/locked-prediction.md` → terminal `python locked_test.py`**
 
-My riskiest claim is that the price needs more scale than the evidence supports. So my locked test cuts revenue per flight hour from $2,500 to $2,000. I wrote this prediction myself and committed it first. I predicted *[your prediction]*. *(run)* Value went from 34 cents to *[read]*, and the action *[stayed / changed]*.
+My riskiest claim is that the price needs more scale than the evidence supports. So my locked test cuts revenue per flight hour from $2,500 to $2,000. I wrote this prediction myself and committed it first. I predicted value would fall and the action would stay watch/defer. *(run)* Value fell from 34 cents to negative $1.34, so I was right on direction. But the action changed to do not initiate, because value went below zero. I also assumed costs stay fixed, but my model lets costs fall with price, so the real hit could be even worse.
 
 **[3:30] On screen: `docs/validation-and-ai-use.md`, cold-run row**
 

@@ -10,6 +10,7 @@ from __future__ import annotations
 import os
 import subprocess
 import tempfile
+import time
 from pathlib import Path
 
 import markdown
@@ -38,13 +39,21 @@ def main() -> None:
         text = (DOCS / src).read_text(encoding="utf-8")
         body = markdown.markdown(text, extensions=["tables", "fenced_code"])
         html = f"<!doctype html><html><head><meta charset='utf-8'><style>{CSS}</style></head><body>{body}</body></html>"
-        with tempfile.NamedTemporaryFile("w", suffix=".html", delete=False, encoding="utf-8") as handle:
-            handle.write(html)
-            tmp = handle.name
+        tmp = Path(tempfile.mkdtemp()) / (Path(src).stem + ".html")
+        tmp.write_text(html, encoding="utf-8")
         out = DOCS / dst
-        subprocess.run([BROWSER, "--headless", "--disable-gpu", "--no-pdf-header-footer",
-                        f"--print-to-pdf={out}", Path(tmp).as_uri()], check=True, capture_output=True)
-        os.unlink(tmp)
+        out.unlink(missing_ok=True)
+        # A separate profile stops a running Edge window from swallowing the headless job,
+        # which previously left the old PDF in place without any error.
+        subprocess.run([BROWSER, "--headless=new", "--disable-gpu", "--no-pdf-header-footer",
+                        f"--user-data-dir={tempfile.mkdtemp()}", f"--print-to-pdf={out}", tmp.as_uri()],
+                       capture_output=True, timeout=120)
+        for _ in range(60):
+            if out.exists() and out.stat().st_size > 0:
+                break
+            time.sleep(0.5)
+        else:
+            raise SystemExit(f"PDF was not produced: {out}")
         print(f"wrote {out.relative_to(ROOT)}")
 
 

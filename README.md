@@ -67,6 +67,7 @@ SEC filings: FY2025 10-K (filed Feb. 27, 2026) and Q2 2026 10-Q (filed Aug. 6, 2
 
 - The operating ramp (fleet, utilization, revenue per flight hour, margins) is analyst judgment; the market price implies ~2.1× the base fleet.
 - Option strikes were not extracted (counted at full dilution, <1% of shares); Resonant acquisition treated as NPV-zero; Toyota's pending $250M tranche excluded.
+- **Fare trigger (from the locked changed-input test):** value reaches $0 if revenue per flight hour is ~4.4% below plan (~$2,390); a $2,000 fare gives −$1.34/share → Do not initiate.
 - **Initiate** only if the FAA type certificate is issued **and** price ≤ 75% of the base value; **upgrade evidence**: two quarters of paid eVTOL revenue with disclosed utilization and fare per flight hour; **do not initiate** if no type certificate by Dec. 31, 2027 or liquidity < 12 months of cash use without committed funding.
 
 *Educational project for FIN 43900 (Purdue). Not investment advice.*

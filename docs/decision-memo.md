@@ -42,6 +42,7 @@ WACC × terminal growth grid: $1.99 at 10.7%/4% and −$0.47 at 14.7%/3%. **No c
 | Valuation | Price ≤ 75% of updated base value | Continuous | Initiate (together with certification) |
 | Delay | No type certificate by Dec. 31, 2027 | Dec. 31, 2027 | Downside case applies → **Do not initiate** |
 | Liquidity | Cash and investments < 12 months of cash use without committed funding (today: $2.26B ≈ 22 months at the modeled FY2027 burn) | Each filing | **Do not initiate** |
+| Fare economics | Disclosed revenue per flight hour below ~$2,390 (value reaches $0 at ×0.956 of the $2,500 base; locked test: $2,000 gives −$1.34) | First paid quarters | **Do not initiate** |
 | Dilution / financing | New equity priced below our base value, or Toyota's $250M second tranche failing to close | Each financing | Lower the value; tighten the triggers |
 
 **Principal risks:** certification timing; manufacturing ramp and unit cost; utilization and fares that are not yet observable; about $5B of further equity funding needed in the base case; capital allocation (the $500M Resonant acquisition is treated as NPV-zero).

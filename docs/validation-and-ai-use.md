@@ -70,21 +70,36 @@ Limitation: this cold run used a fresh clone and environment on the author's mac
 
 ## 4. Locked Changed-Input Record — human prediction first; AI closed during execution
 
-### 4A. Final-model record (Project 1 model) — **to be completed by the student**
+### 4A. Final-model record (Project 1 model)
 
 The test runner (`locked_test.py`) fixes the material input before anyone predicts: **revenue per eVTOL flight hour, all years, $2,500 → $2,000 in 2027 (×0.8), same escalation**. Nothing else changes. This input is deliberately absent from every sensitivity table in the frozen output, so the result was not visible before the prediction. The runner refuses to execute until `docs/locked-prediction.md` has no blanks and is committed. It records that commit hash and writes `output/locked_test_result.md`.
 
 #### Precommit before the run and before any AI assistance on the prediction
 
+Prediction written Oct. 19, 2026, 9:21 PM ET by Tobey Uhm; AI assistance on the prediction: none. Full text: `docs/locked-prediction.md`.
+
 | Precommit timestamp | Repository commit | Material input | Old → new value / units | Expected output direction | Expected decision effect |
 |---|---|---|---|---|---|
-| [from `docs/locked-prediction.md` commit] | [hash] | Revenue per flight hour | $2,500 → $2,000 per flight hour (2027; +2.5%/yr after) | [student] | [student] |
+| 2026-10-19 21:22:24 ET (`1796d19`). A follow-up commit at 21:22:31 (`a0f877b`) removed placeholder text from the instruction line only; the prediction is unchanged. The runner recorded `a0f877b`. | `1796d195b752…`, `a0f877b5131a…` | Revenue per eVTOL flight hour | $2,500 → $2,000 USD per flight hour in 2027 (×0.8); +2.5%/yr thereafter | Value per share **down**, "significantly below $0.34 … likely deeply negative or toward $0.00". Cumulative new equity **up**. Mechanism: costs unchanged, so gross profit absorbs the entire revenue loss. | **Unchanged: Watch / defer** |
 
 #### Preserved execution result
 
-| Before / after output | Actual decision effect | Prediction reconciliation | Failure diagnosis or why action did not change | Evidence path |
-|---|---|---|---|---|
-| [copy from `output/locked_test_result.md`] | [student] | [student] | [student] | `output/locked_test_result.md`, `output/locked_test_result.json` |
+Run 2026-10-19 21:23:20 ET, commit `ab64e4d`; result committed in `2227cf7`. A first run at 21:23:03 ET wrote the same result files and then crashed while printing to the console (the same Windows cp1252 `UnicodeEncodeError` found in the cold run). The print was fixed in `ab64e4d` and rerun. Before/after outputs were checked identical to the first run.
+
+| Output | Before | After | Change |
+|---|---:|---:|---:|
+| Value per share (unfloored) | $0.34 | **−$1.34** (floored $0.00) | −$1.67 |
+| Enterprise value ($M) | −1,151.7 | −2,911.3 | −1,759.6 |
+| 2030 revenue ($M) | 1,132.5 | 938.7 | −193.9 |
+| 2030 FCFF ($M) | −1,020.2 | −1,091.7 | −71.5 |
+| Cumulative new equity ($M) | 5,028.1 | 5,937.4 | +909.3 |
+| Committee action | Watch / defer | **Do not initiate** | **changed** |
+
+| Prediction reconciliation | Failure diagnosis | Evidence path |
+|---|---|---|
+| **Value direction: correct.** Value fell from $0.34 to −$1.34; modeled equity is below zero, so the shares are worth about $0. The predicted size ("deeply negative or toward $0.00") was right. **New equity: correct.** It rose by $909M. **Mechanism: partly wrong.** I predicted that unchanged costs would make gross profit absorb 100% of the lost revenue. In the model, eVTOL cost of revenue is set as revenue × (1 − gross margin), so costs fall with price. In 2030 gross profit fell $77.5M on a $193.9M revenue drop (40% = the 2030 margin), not $193.9M. This is the case my item 5 said I would check first. **Decision effect: wrong.** I predicted Watch / defer would hold; it changed to **Do not initiate**. | **Why value still fell so much** despite the smaller per-year hit: the loss compounds. Revenue is 18–20% lower every year, and the fixed R&D/SG&A costs stay the same, so operating leverage is lost and the convergence stage starts from a smaller 2031 base. PV of explicit FCFF fell about $1.09B and PV of terminal value fell about $0.80B. **Why my decision prediction failed:** I reasoned that worse economics "reinforce" deferral, but I did not apply the committee rule: an action of "Do not initiate" applies whenever value is ≤ $0. The base equity cushion was only $352M, so a $1.76B fall in EV wipes it out. **Model limitation exposed:** holding margin % constant when price falls is generous. Pilot, maintenance and energy cost per flight hour do not fall with fares, so the true downside is likely **larger** than modeled. The next model version should split eVTOL cost into a per-flight-hour cost plus a margin. **Decision consequence:** revenue per flight hour is decision-critical. Value reaches $0 at about **×0.956 (~$2,390 per flight hour in 2027)**, only 4.4% below the base assumption. This adds a monitoring trigger: if disclosed early revenue per flight hour is below about $2,390, move to **Do not initiate**. | `output/locked_test_result.md`, `output/locked_test_result.json`; prediction `docs/locked-prediction.md`; commits `1796d19`, `a0f877b`, `ab64e4d`, `2227cf7` |
+
+Post-run analysis (the cost trace by year and the breakeven price search) was done with Claude Opus 5.5 after execution and checked against the result files. The prediction itself had no AI assistance.
 
 ### 4B. Lab 11 record (supporting evidence, preserved unchanged)
 
