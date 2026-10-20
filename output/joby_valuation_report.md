@@ -3,7 +3,7 @@
 **Decision user:** Buy-side investment committee with no current JOBY position  
 **Valuation date:** 2026-09-01 · **Balance sheet:** 10-Q at 2026-06-30 · **Price:** $6.69 close on 2026-09-01  
 **Units:** USD millions except per-share values (USD) and shares (millions)  
-**Generated:** 2026-10-20T00:10:22Z (Python 3.13.15)
+**Generated:** 2026-10-20T00:15:54Z (Python 3.13.15)
 
 ## Decision
 

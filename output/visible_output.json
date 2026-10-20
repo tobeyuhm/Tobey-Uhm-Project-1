@@ -615,7 +615,7 @@
     "Do not initiate: no type certificate by Dec. 31, 2027 (delayed-certification case) OR liquidity < 12 months of cash use without committed funding."
   ],
   "run": {
-    "generated_utc": "2026-10-20T00:10:22Z",
+    "generated_utc": "2026-10-20T00:15:54Z",
     "python": "3.13.15",
     "platform": "Windows-11-10.0.26200-SP0"
   }

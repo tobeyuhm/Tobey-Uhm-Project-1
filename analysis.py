@@ -369,6 +369,10 @@ def main() -> None:
     (OUTPUT_DIR / "visible_output.json").write_text(json.dumps(r, indent=2), encoding="utf-8")
     report = write_report(r)
     (OUTPUT_DIR / "joby_valuation_report.md").write_text(report, encoding="utf-8")
+    # Cold-run fix (Oct. 19, 2026): Windows consoles default to cp1252 and crashed on the
+    # minus sign and arrows in the report. Print as UTF-8 regardless of console encoding.
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     print(report)
 
 
