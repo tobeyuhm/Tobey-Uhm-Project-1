@@ -1,7 +1,7 @@
 # Locked Changed-Input Prediction
 
 > Write this before running `python locked_test.py`. Commit this file by itself, then run the test.
-> `locked_test.py` will not run until this file is committed and no `[WRITE HERE]` is left.
+> `locked_test.py` will not run until this file is committed and no blank placeholder is left.
 
 **Author:** Tobey Uhm
 **Written (date/time, ET):** October 19, 2026, 9:21 PM ET
