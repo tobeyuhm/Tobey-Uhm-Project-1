@@ -41,7 +41,7 @@ No credentials are needed; `.env.example` is intentionally empty. Recorded cold 
 | `locked_test.py` | AI-closed runner for the human-authored Locked Changed-Input Record (refuses to run until `docs/locked-prediction.md` is written and committed) |
 | `tests/test_model.py` | Known answers, repaired defects, accounting identities, bridge, directional checks |
 | `legacy/joby_proforma_2026.py` | Lab 11 script with its three defects repaired (original preserved unchanged in the evidence package) |
-| `docs/` | Research evolution, decision memo, validation and AI-use record (Markdown + PDF), transcripts, manifest, video scripts, `HUMAN-ACTIONS-REQUIRED.md` |
+| `docs/` | Research evolution, decision memo, validation and AI-use record (Markdown + PDF), locked prediction, corrected video transcripts, submission manifest |
 | `tools/build_pdfs.py` | Renders the three Brightspace PDFs from `docs/*.md` (`pip install -r requirements-docs.txt`; uses Edge/Chrome headless) |
 
 Flow: **evidence (data/) → analysis (joby/, analysis.py) → tests → frozen output (output/) → app.py**.

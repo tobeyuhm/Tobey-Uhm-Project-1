@@ -232,6 +232,7 @@ def run_analysis(inputs: dict | None = None) -> dict:
         "reversal_triggers": [
             "Initiate review: FAA type certificate issued AND price at or below the initiate threshold.",
             "Upgrade evidence: >= 2 reported quarters of paid eVTOL passenger revenue with disclosed utilization and fare per flight hour.",
+            "Fare trigger (locked changed-input test): value reaches $0 at ~$2,390 per flight hour (x0.956 of plan); disclosed early revenue per flight hour below that -> Do not initiate.",
             "Do not initiate: no type certificate by Dec. 31, 2027 (delayed-certification case) OR liquidity < 12 months of cash use without committed funding.",
         ],
         "run": {

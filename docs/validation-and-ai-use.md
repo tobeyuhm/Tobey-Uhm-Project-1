@@ -10,7 +10,7 @@ Tobey Uhm · This Markdown file is the working source; Brightspace `Validation-a
 | Result | **Watch / defer**; $0.00–$3.82 per share (base $0.34) vs $6.69 |
 | Valuation date / price | Sept. 1, 2026 / $6.69 close (S9) |
 | Source cutoff | Latest filing on or before Sept. 1, 2026: Q2 2026 10-Q, filed Aug. 6, 2026 (balance sheet June 30, 2026; cover shares Aug. 3, 2026). Nothing after Sept. 1, 2026 is used. |
-| Repository / commit | `Joby-research`, branch `main`. Final submission commit: **[record the hash from `git log -1` after your last commit]** |
+| Repository / commit | `Joby-research`, branch `main`; frozen submission = git tag **`project1-submission`** (hash listed in the manifest) |
 | Run | `python analysis.py` → `output/visible_output.json`, `output/joby_valuation_report.md` (timestamp printed in the report) |
 | Environment | Python 3.13.15 (Windows 11), standard library only for the engine; Streamlit ≥1.40,<2 for the app |
 
@@ -51,7 +51,7 @@ Tobey Uhm · This Markdown file is the working source; Brightspace `Validation-a
 | Convergence design (highest-risk modeling claim) | Linear ratio interpolation ignores fixed-cost leverage | Review whether opex scales like a fixed cost after certification | Draft gave −$1.21/share with R&D at 33% of revenue in 2031 falling only linearly. Redesigned: R&D +2%/yr and SG&A at half of revenue growth, with 8%/10% floors → $0.34. The change rests on cost structure, not on matching the price (still 5% of price). | Corrected | Draft was not committed; the redesign is in the first commit `8fc1a0a` (`joby/model.py`, convergence block) |
 | Highest-risk decision claim: "price requires more scale than evidence supports" | Result driven by WACC, not scale | Reverse DCF on fleet with WACC held; WACC × g grid | 2.13× fleet needed; no grid cell (10.7–14.7%, 2–4%) reaches $6.69 | Supports claim | Report: Reverse DCF, grid |
 | Recommendation-changing downside | Downside is cosmetic | Two-year certification delay through the linked statements | EV −$7.39B; new equity $12.7B; action → **Do not initiate** | Recommendation changes | Report: Scenarios |
-| Reproducibility (cold run) | README insufficient | Fresh `git clone`, new venv, `pip install -r requirements.txt`, `python analysis.py`, tests, `streamlit run app.py` | **First failure:** `UnicodeEncodeError` (cp1252 console, '−' character) in `analysis.py` print. Fixed in commit `8f813c3`. Rerun: analysis OK, 23 tests OK, Streamlit health HTTP 200; about 3 min including install. | Fixed | Section 3a |
+| Reproducibility (cold run) | A clean user following the README cannot reproduce the result | Fresh copy of the repo in a new folder, new virtual environment, then install requirements → run `python analysis.py` → run the tests → start the app. Expected: all four steps work. | **First failure:** `python analysis.py` crashed while printing the report. The Windows console (cp1252) could not print the "−" minus sign (`UnicodeEncodeError`). **Fix:** print as UTF-8 (commit `8f813c3`). **Rerun:** analysis OK, 23 of 23 tests pass, app starts (HTTP 200). About 3 minutes including install. The same crash later hit `locked_test.py` and got the same fix (commit `ab64e4d`). | Fixed | Section 3a below (cold-run log) |
 | App rendering | `$…$` rendered as LaTeX math in Streamlit | Visual check of the range metric | "$0.00–$3.82" was shown as math. Dollar signs escaped (commit after `8f813c3`). | Fixed | `app.py` |
 
 ### 3a. Cold-run log (Oct. 19, 2026, ET)

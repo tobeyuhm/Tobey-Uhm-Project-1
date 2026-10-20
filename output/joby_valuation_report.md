@@ -3,7 +3,7 @@
 **Decision user:** Buy-side investment committee with no current JOBY position  
 **Valuation date:** 2026-09-01 · **Balance sheet:** 10-Q at 2026-06-30 · **Price:** $6.69 close on 2026-09-01  
 **Units:** USD millions except per-share values (USD) and shares (millions)  
-**Generated:** 2026-10-20T00:15:54Z (Python 3.13.15)
+**Generated:** 2026-10-20T02:38:30Z (Python 3.13.15)
 
 ## Decision
 
@@ -107,6 +107,7 @@ Lab 08 peer policy (frozen Sept. 1, 2026): ACHR use; EVEX qualify. Not used for 
 
 - Initiate review: FAA type certificate issued AND price at or below the initiate threshold.
 - Upgrade evidence: >= 2 reported quarters of paid eVTOL passenger revenue with disclosed utilization and fare per flight hour.
+- Fare trigger (locked changed-input test): value reaches $0 at ~$2,390 per flight hour (x0.956 of plan); disclosed early revenue per flight hour below that -> Do not initiate.
 - Do not initiate: no type certificate by Dec. 31, 2027 (delayed-certification case) OR liquidity < 12 months of cash use without committed funding.
 
 ## Limitations

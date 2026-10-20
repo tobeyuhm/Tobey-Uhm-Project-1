@@ -3,7 +3,8 @@
     pip install markdown        # documentation tool only
     python tools/build_pdfs.py  # needs Microsoft Edge (Windows) or set BROWSER to a Chrome/Edge path
 
-Writes docs/Research-Evolution.pdf, docs/Decision-Memo.pdf, docs/Validation-and-AI-Use.pdf.
+Writes docs/research-evolution.pdf, docs/decision-memo.pdf, docs/validation-and-ai-use.pdf (the Brightspace copies are
+the same files renamed Research-Evolution.pdf, Decision-Memo.pdf, Validation-and-AI-Use.pdf).
 """
 from __future__ import annotations
 
@@ -19,9 +20,9 @@ ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
 BROWSER = os.environ.get("BROWSER", r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe")
 JOBS = {
-    "research-evolution.md": "Research-Evolution.pdf",
-    "decision-memo.md": "Decision-Memo.pdf",
-    "validation-and-ai-use.md": "Validation-and-AI-Use.pdf",
+    "research-evolution.md": "research-evolution.pdf",
+    "decision-memo.md": "decision-memo.pdf",
+    "validation-and-ai-use.md": "validation-and-ai-use.pdf",
 }
 CSS = """
 @page { size: Letter; margin: 0.55in; }
