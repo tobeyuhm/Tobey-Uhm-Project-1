@@ -33,8 +33,8 @@ c1, c2, c3, c4 = st.columns(4)
 c1.metric("Committee action", r["decision"]["action"])
 c2.metric("Market price (Sept. 1, 2026)", f"${r['price']['value']:.2f}")
 c3.metric("Base value / share", f"${rng['base']:.2f}")
-c4.metric("Range (downside–upside)", f"${rng['low']:.2f}–${rng['high']:.2f}")
-st.write(f"**Decision rule:** {r['decision']['rule']}")
+c4.metric("Range (downside–upside)", f"\\${rng['low']:.2f}–\\${rng['high']:.2f}")
+st.write(f"**Decision rule:** {r['decision']['rule']}".replace("$", "\\$"))
 
 st.subheader("Scenarios — each run through the linked statements")
 st.table([{
@@ -49,8 +49,8 @@ st.table([{
 
 rv = r["reverse_dcf"]
 if rv["solved"]:
-    st.info(f"**Reverse DCF:** ${rv['target_price']:.2f} requires {rv['fleet_multiplier']:.2f}× the base fleet in every year "
-            f"(≈{rv['implied_avg_fleet_2031']:.0f} aircraft in service in 2031; 2030 revenue ≈ ${rv['implied_revenue_2030']:,.0f}M).")
+    st.info(f"**Reverse DCF:** \\${rv['target_price']:.2f} requires {rv['fleet_multiplier']:.2f}× the base fleet in every year "
+            f"(≈{rv['implied_avg_fleet_2031']:.0f} aircraft in service in 2031; 2030 revenue ≈ \\${rv['implied_revenue_2030']:,.0f}M).")
 
 left, right = st.columns(2)
 with left:
@@ -69,7 +69,7 @@ with right:
 
 st.subheader("Reversal triggers")
 for t in r["reversal_triggers"]:
-    st.write("•", t)
+    st.write("•", t.replace("$", "\\$"))
 
 st.divider()
 st.header("Live what-if (recomputed by the analysis engine; frozen output above is unchanged)")
