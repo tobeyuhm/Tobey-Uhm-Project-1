@@ -88,6 +88,8 @@ def main() -> int:
         md.append(f"| {k} | {b[k]:,.2f} | {a[k]:,.2f} | {a[k] - b[k]:+,.2f} |")
     md += [f"| committee action | {b['action']} | {a['action']} | {'changed' if a['action'] != b['action'] else 'unchanged'} |", ""]
     (out / "locked_test_result.md").write_text("\n".join(md), encoding="utf-8")
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # same cp1252 console fix as analysis.py
     print("\n".join(md))
     return 0
 
