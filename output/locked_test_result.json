@@ -1,0 +1,24 @@
+{
+  "prediction_commit": "a0f877b5131a662620ef78e185ce7b26e4cc8494",
+  "prediction_commit_time": "2026-10-19T21:22:31-04:00",
+  "run_utc": "2026-10-20T01:23:20Z",
+  "changed_input": "Revenue per flight hour, all forecast years (USD per flight hour)",
+  "old_value": "x1.0 ($2,500 in 2027, +2.5%/yr thereafter)",
+  "new_value": "x0.8 ($2,000 in 2027, +2.5%/yr thereafter)",
+  "before": {
+    "value_per_share": 0.33514494211147405,
+    "enterprise_value": -1151.7466069149532,
+    "revenue_2030": 1132.528,
+    "fcff_2030": -1020.21469312,
+    "cumulative_new_equity": 5028.100786611,
+    "action": "Watch / defer"
+  },
+  "after": {
+    "value_per_share": -1.3386547739186432,
+    "enterprise_value": -2911.344903045841,
+    "revenue_2030": 938.6824000000001,
+    "fcff_2030": -1091.7378931199999,
+    "cumulative_new_equity": 5937.397758258905,
+    "action": "Do not initiate"
+  }
+}
