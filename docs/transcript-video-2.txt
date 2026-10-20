@@ -1,0 +1,15 @@
+PROJECT: FIN 43900 Project 1 — Joby Aviation (JOBY)
+STUDENT: Tobey Uhm
+VIDEO: 2 Codebase Walkthrough
+STABLE VIDEO ID/URL: [paste YouTube unlisted URL]
+TITLE: [paste exact YouTube title]
+DURATION: [m:ss]
+REPOSITORY COMMIT/FROZEN VERSION: [final commit hash]
+
+[REPLACE EVERYTHING BELOW with the corrected YouTube captions of what you actually said.
+Correct finance terms (FCFF, WACC, eVTOL), tickers (JOBY, ACHR, EVEX), names (Eric Boyd), and every number.
+Keep a timestamp at each required evidence moment. Do not paste the script — the transcript must match the recording.]
+
+[00:00] Tobey Uhm:
+
+END OF CORRECTED TRANSCRIPT

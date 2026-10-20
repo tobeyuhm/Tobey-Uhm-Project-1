@@ -1,0 +1,13 @@
+item,required,location_or_url,title,duration_or_as_of,timestamp_index,access_checked,frozen_or_commit_id,notes
+Research-Evolution.pdf,yes,Brightspace attachment; repo docs/research-evolution.pdf,Research Evolution — Joby Aviation (JOBY),Edition A 2026-09-01; Edition B 2026-10-19,,,[final commit hash],Edition A reproduced verbatim (SHA-256 CDF3C352...6F99)
+Repository,yes,[https://github.com/<you>/Joby-research],Joby-research,as of 2026-09-01 valuation,,[yes/no + date checked],[final commit hash],Private repo? confirm instructional-team access
+Visible executed output,yes,[repo URL]/blob/main/output/joby_valuation_report.md,Joby FCFF/WACC valuation report,2026-09-01,,[yes + date],[final commit hash],Also output/visible_output.json (rendered by app.py)
+Decision memo or deck,yes,Brightspace attachment; repo docs/decision-memo.pdf,Decision Memo — Joby Aviation (JOBY),2026-09-01,,,[final commit hash],Two pages max
+Validation-and-AI-Use.pdf,yes,Brightspace attachment; repo docs/validation-and-ai-use.md,Validation and AI Use — Joby Aviation (JOBY),2026-10-19,,,[final commit hash],Content-equivalent to repo Markdown
+Video 1,yes,[YouTube unlisted URL],JOBY Project 1 — Video 1: Research Evolution and AI-Output Check,[m:ss ≤ 3:00],[e.g. 0:00 A-to-B; 0:50 driver of change; 1:40 AI claim + check],[yes + date],,
+Transcript Video 1,yes,docs/transcript-video-1.txt,Corrected transcript — Video 1,,,[yes],[final commit hash],
+Video 2,yes,[YouTube unlisted URL],JOBY Project 1 — Video 2: Codebase and Validation Walkthrough,[m:ss ≤ 5:00],[e.g. 0:00 architecture; 1:00 data flow; 2:15 FCFF/bridge; 3:15 tests + locked test; 4:20 failure mode],[yes + date],,
+Transcript Video 2,yes,docs/transcript-video-2.txt,Corrected transcript — Video 2,,,[yes],[final commit hash],
+Video 3,yes,[YouTube unlisted URL],JOBY Project 1 — Video 3: Investment-Committee Presentation,[m:ss ≤ 5:00],[e.g. 0:00 decision; 0:30 live app demo; 2:30 risks/triggers; 4:30 ask],[yes + date],,
+Transcript Video 3,yes,docs/transcript-video-3.txt,Corrected transcript — Video 3,,,[yes],[final commit hash],
+Optional deployed output,no,,,,,,,Not deployed; app runs locally (streamlit run app.py)
