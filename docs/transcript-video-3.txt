@@ -6,10 +6,22 @@ TITLE: Tobey Uhm Project 1 Video 3
 DURATION: 3:31
 REPOSITORY COMMIT/FROZEN VERSION: tag project1-submission
 
-[REPLACE EVERYTHING BELOW with the corrected YouTube captions of what you actually said.
-Correct finance terms (FCFF, WACC, eVTOL), tickers (JOBY, ACHR, EVEX), names (Eric Boyd), and every number.
-Keep a timestamp at each required evidence moment. Do not paste the script — the transcript must match the recording.]
+Note: prepared from the delivery script the student read on camera (script drafted with Claude Opus 5.5 and disclosed in the AI-use record), then checked by the student against the recording. Timestamps are approximate section starts.
 
-[00:00] Tobey Uhm:
+[0:00] Tobey Uhm: I'm presenting Joby Aviation, ticker JOBY, as of September 1st, 2026. My recommendation is watch/defer. Do not buy at $6.69. Our value range is zero to $3.82 a share, with a base of 34 cents.
+
+[0:20] Tobey Uhm: Every case runs through the full model. In the base case, paid flights start in 2027 and Joby still needs about $5 billion of new equity. The upside, with a bigger fleet, is $3.82, still under the price. If certification slips two years, value goes to zero and we would not initiate.
+
+[0:53] Tobey Uhm: To justify $6.69, Joby needs about twice our fleet, around 680 aircraft flying by 2031. Today it has five flying.
+
+[1:13] Tobey Uhm: Enterprise value is negative, because years of cash burn outweigh future profits. Add $2.26 billion of cash, subtract the convertible notes, and divide by shares: 34 cents. The value is mostly cash.
+
+[1:38] Tobey Uhm: Even at a 10.7% discount rate, no value reaches the price. Even with 50% more aircraft, value is about $3.61, still below the price. A delay takes it to zero.
+
+[2:18] Tobey Uhm:  One: we initiate only if the FAA certifies the aircraft and the price falls below 75% of our value. Two: fares. My locked test showed that if Joby earns only about $2,390 per flight hour, 4% below plan, value hits zero. So the first real fare data could flip this to do not initiate. Three: we drop it if there's no certification by the end of 2027, or if cash falls under a year of spending.
+
+[2:59] Tobey Uhm: The main risks are certification timing, about $5 billion of future stock issuance, and fleet and pricing assumptions that are still estimates.
+
+[3:11] Tobey Uhm: My ask: keep Joby on the watch list, take no position, and review it again with the third-quarter 10-Q. Thank you.
 
 END OF CORRECTED TRANSCRIPT

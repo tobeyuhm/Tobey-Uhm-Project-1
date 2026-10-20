@@ -6,10 +6,20 @@ TITLE: Tobey Uhm Project 1 Video 1 Final
 DURATION: 2:57
 REPOSITORY COMMIT/FROZEN VERSION: tag project1-submission
 
-[REPLACE EVERYTHING BELOW with the corrected YouTube captions of what you actually said.
-Correct finance terms (FCFF, WACC, eVTOL), tickers (JOBY, ACHR, EVEX), names (Eric Boyd), and every number.
-Keep a timestamp at each required evidence moment. Do not paste the script — the transcript must match the recording.]
+Note: prepared from the delivery script the student read on camera (script drafted with Claude Opus 5.5 and disclosed in the AI-use record), then checked by the student against the recording. Timestamps are approximate section starts.
 
-[00:00] Tobey Uhm:
+[0:00] Tobey Uhm: I'm Tobey Uhm, Project 1, Joby Aviation. In Edition A, written in Lab 03 on September 1st before any AI use, my call was watch/defer. Revenue came mostly from Blade, the eVTOL business still depended on certification, and I had no valuation yet, only a plan for an FCFF model.
+
+[0:24] Tobey Uhm: In Edition B the action is unchanged, but now it has evidence: zero to $3.82 per share, base 34 cents, against a $6.69 price.
+
+[0:38] Tobey Uhm: The biggest change was the revenue model, and peer challenge drove it. In Lab 11 my partner Eric Boyd asked what primary evidence supported a $3.5 billion 2030 revenue path. I had none. So I rebuilt revenue as fleet times flight hours times price per hour, anchored to 2026 guidance of $115 to $125 million and 12 aircraft in production. 2030 revenue fell to $1.13 billion. Moving to the June 2026 10-Q came from the course rule to use the latest filing.
+
+[1:17] Tobey Uhm: It's sufficient for watch/defer because no cell in my WACC-by-growth grid reaches $6.69, and the reverse DCF needs 2.1 times my fleet. It isn't sufficient to initiate. That needs a type certificate.
+
+[1:39] Tobey Uhm: One AI output: Claude, Opus 5.5, extracted my bridge inputs from the Q2 10-Q: $2,263.8 million of cash and investments, 989.1 million shares, and $690 million of converts at $14.19. I checked them against the filing. Here's the balance sheet, $629.9 million cash plus $1,634.0 million short-term investments, and the cover-page shares. They matched, so I accepted them.
+
+[2:17] Tobey Uhm: I corrected another: its first cost design gave negative $1.21 a share by ignoring fixed-cost leverage. I fixed the cost logic, not the answer, and the result is still about 5% of price.
+
+[2:34] Tobey Uhm: That is my research evolution. Thank you.
 
 END OF CORRECTED TRANSCRIPT
