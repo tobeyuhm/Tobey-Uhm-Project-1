@@ -1,0 +1,117 @@
+{
+  "_readme": "Every material input for the Joby FCFF/WACC valuation. Units: USD millions unless a key says otherwise; shares in millions; rates are decimals. 'src' points to data/source_ledger.csv. 'label' is History (reported fact), Market (observed price/rate), or Judgment (analyst assumption).",
+  "company": "Joby Aviation, Inc. (NYSE: JOBY; CIK 0001819848)",
+  "valuation_date": "2026-09-01",
+  "balance_sheet_date": "2026-06-30",
+  "decision_user": "Buy-side investment committee with no current JOBY position",
+  "decision_options": ["initiate", "watch/defer", "do not initiate"],
+
+  "market": {
+    "share_price": {"value": 6.69, "date": "2026-09-01", "label": "Market", "src": "S9", "note": "Sept. 1, 2026 close, as recorded in Lab 08 (commit a6e9520)."},
+    "risk_free_rate": {"value": 0.042, "label": "Market", "src": "S4", "note": "4.20% risk-free rate used by Joby in its June 30, 2026 warrant valuation (10-Q Note 3)."},
+    "equity_risk_premium": {"value": 0.05, "label": "Judgment", "src": "J1"},
+    "beta": {"value": 1.8, "label": "Judgment", "src": "J1", "note": "Pre-commercial, high-volatility aerospace; tested 1.4-2.2 in sensitivity."},
+    "pretax_cost_of_debt": {"value": 0.08, "label": "Judgment", "src": "J1", "note": "Straight-debt yield for an unrated, loss-making issuer; the 0.75% coupon reflects the conversion option, not the cost of debt."},
+    "marginal_tax_rate": {"value": 0.24, "label": "Judgment", "src": "J1", "note": "21% federal + ~3% net state."}
+  },
+
+  "opening_balance_sheet": {
+    "_src": "S4 — 10-Q condensed consolidated balance sheet, June 30, 2026 (p. 3)",
+    "cash_and_short_term_investments": 2263.826,
+    "ppe_net": 229.828,
+    "total_assets": 2752.177,
+    "long_term_debt_carrying": 701.874,
+    "total_liabilities": 985.454,
+    "stockholders_equity": 1766.723
+  },
+
+  "bridge_claims": {
+    "_src": "S4 — 10-Q balance sheet and Notes 4, 6, 7",
+    "convertible_notes_principal": 690.0,
+    "convertible_notes_fair_value": 628.0,
+    "convertible_conversion_price": 14.19,
+    "convertible_if_converted_shares": 48.634374,
+    "mortgage_loan_principal": 30.75,
+    "warrant_liability_fair_value": 21.505,
+    "blade_ebitda_earnout_max": 17.5
+  },
+
+  "share_count": {
+    "_src": "S4 — 10-Q cover page (Aug. 3, 2026) and antidilution table (June 30, 2026)",
+    "basic_shares_outstanding": 989.124237,
+    "basic_shares_date": "2026-08-03",
+    "unvested_rsus": 55.885904,
+    "unvested_restricted_stock_awards": 0.445997,
+    "unvested_early_exercised_options": 0.533278,
+    "options_outstanding": 5.270349,
+    "options_note": "Weighted-average strike not extracted; all options counted as if exercised at zero strike (maximum dilution, ~0.5% of shares).",
+    "warrant_note": "Warrants are deducted at their $21.5M reported fair value rather than added as shares, to avoid double counting.",
+    "earnout_note": "Sponsor earnout shares are legally outstanding and already in the basic count; the earnout liability is therefore not also deducted."
+  },
+
+  "h1_2026_actual": {
+    "_src": "S4 — 10-Q statements of operations and cash flows, six months ended June 30, 2026",
+    "revenue": 62.885,
+    "cost_of_revenue": 47.101,
+    "research_and_development": 372.132,
+    "selling_general_admin": 138.115,
+    "depreciation_and_amortization": 22.853,
+    "capex": 106.559,
+    "stock_based_compensation": 96.016
+  },
+
+  "tax": {
+    "federal_nol_2025_12_31": 1662.0,
+    "nol_src": "S3 — FY2025 10-K income-tax note",
+    "nol_usage_limit": 0.80,
+    "nol_note": "Post-2017 federal NOLs offset at most 80% of taxable income. FY2026 losses are added to the pool."
+  },
+
+  "operating_plan": {
+    "_note": "Calendar-year drivers. 2026 is the full fiscal year; the model removes H1 2026 actuals to get the July-December stub. Fleet, utilization, and price are Judgment anchored to S5/S7 production and launch statements.",
+    "years": [2026, 2027, 2028, 2029, 2030, 2031],
+    "avg_commercial_fleet": [0, 8, 35, 100, 200, 320],
+    "flight_hours_per_aircraft": [0, 600, 1000, 1400, 1800, 2000],
+    "revenue_per_flight_hour_usd": [2500, 2500, 2562.5, 2626.6, 2692.3, 2759.6],
+    "services_revenue": [120.0, 129.6, 140.0, 151.2, 163.3, 176.3],
+    "evtol_gross_margin": [0.0, -0.20, 0.10, 0.30, 0.40, 0.45],
+    "services_gross_margin": [0.25, 0.25, 0.25, 0.25, 0.25, 0.25],
+    "research_and_development": [760.0, 760.0, 720.0, 680.0, 650.0, 640.0],
+    "selling_general_admin": [290.0, 320.0, 360.0, 410.0, 470.0, 530.0],
+    "capex": [200.0, 300.0, 380.0, 460.0, 520.0, 560.0],
+    "label": "Judgment",
+    "src": "J2"
+  },
+
+  "convergence": {
+    "_note": "2032-2040: rule-based fade from the 2031 explicit year to a steady state, run through the same integrated statement engine. R&D grows 2%/yr and SG&A grows at half the revenue growth rate (fixed-cost leverage), each floored at a steady-state share of revenue; gross margin converges over four years; growth capex = revenue increase / sales-to-capital.",
+    "years": [2032, 2033, 2034, 2035, 2036, 2037, 2038, 2039, 2040],
+    "revenue_growth": [0.50, 0.40, 0.30, 0.22, 0.16, 0.12, 0.09, 0.06, 0.04],
+    "steady_state_gross_margin": 0.40,
+    "gross_margin_convergence_years": 4,
+    "rnd_nominal_growth": 0.02,
+    "steady_state_rnd_pct_revenue": 0.08,
+    "sga_growth_share_of_revenue_growth": 0.5,
+    "steady_state_sga_pct_revenue": 0.10,
+    "sales_to_capital": 2.5,
+    "label": "Judgment",
+    "src": "J3"
+  },
+
+  "other_drivers": {
+    "depreciation_rate_on_opening_ppe": 0.20,
+    "depreciation_src": "S3/S4 — FY2025 D&A $40.2M on opening PP&E $121.0M (33%); H1 2026 annualized $45.7M on $146.6M (31%). 20% used because new fleet assets have longer lives (Judgment).",
+    "nwc_pct_of_revenue_change": 0.05,
+    "interest_income_rate_on_cash": 0.035,
+    "minimum_liquidity": 500.0,
+    "equity_issue_discount_to_price": 0.10
+  },
+
+  "terminal": {
+    "growth": 0.03,
+    "return_on_new_invested_capital": 0.15,
+    "label": "Judgment",
+    "src": "J3",
+    "note": "3% nominal growth is below a defensible long-run U.S. nominal GDP growth rate (~4%). Terminal reinvestment = g / RONIC."
+  }
+}
