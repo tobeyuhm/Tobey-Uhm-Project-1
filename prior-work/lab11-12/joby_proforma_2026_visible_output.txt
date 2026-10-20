@@ -1,0 +1,81 @@
+﻿
+THREE-YEAR HISTORY � USD MILLIONS; EVERY ITEM TRACED TO A FILING
+Metric                                               FY2023           FY2024           FY2025
+Revenue                                               1.032            0.136           53.425
+  Sources: FY23 2023 10-K, filed Feb. 26, 2024, pp. 45-49, https://www.sec.gov/Archives/edgar/data/1819848/000181984824000125/joby-20231231.htm; FY24 2024 10-K, filed Feb. 27, 2025, pp. 50-53, https://www.sec.gov/Archives/edgar/data/1819848/000181984825000196/joby-20241231.htm; FY25 2025 10-K, filed Feb. 26, 2026, pp. 52-56, https://www.sec.gov/Archives/edgar/data/1819848/000181984826000160/joby-20251231.htm
+Gross profit (revenue - cost of revenue)              0.832            0.069           24.097
+  Sources: FY23 2023 10-K, filed Feb. 26, 2024, pp. 45-49, https://www.sec.gov/Archives/edgar/data/1819848/000181984824000125/joby-20231231.htm; FY24 2024 10-K, filed Feb. 27, 2025, pp. 50-53, https://www.sec.gov/Archives/edgar/data/1819848/000181984825000196/joby-20241231.htm; FY25 2025 10-K, filed Feb. 26, 2026, pp. 52-56, https://www.sec.gov/Archives/edgar/data/1819848/000181984826000160/joby-20251231.htm
+SG&A                                                105.877          119.667          162.587
+  Sources: FY23 2023 10-K, filed Feb. 26, 2024, pp. 45-49, https://www.sec.gov/Archives/edgar/data/1819848/000181984824000125/joby-20231231.htm; FY24 2024 10-K, filed Feb. 27, 2025, pp. 50-53, https://www.sec.gov/Archives/edgar/data/1819848/000181984825000196/joby-20241231.htm; FY25 2025 10-K, filed Feb. 26, 2026, pp. 52-56, https://www.sec.gov/Archives/edgar/data/1819848/000181984826000160/joby-20251231.htm
+Net income (loss)                                   -513.05         -608.034         -929.842
+  Sources: FY23 2023 10-K, filed Feb. 26, 2024, pp. 45-49, https://www.sec.gov/Archives/edgar/data/1819848/000181984824000125/joby-20231231.htm; FY24 2024 10-K, filed Feb. 27, 2025, pp. 50-53, https://www.sec.gov/Archives/edgar/data/1819848/000181984825000196/joby-20241231.htm; FY25 2025 10-K, filed Feb. 26, 2026, pp. 52-56, https://www.sec.gov/Archives/edgar/data/1819848/000181984826000160/joby-20251231.htm
+Inventory                                     None reported    None reported    None reported
+  Sources: FY23 2023 10-K, filed Feb. 26, 2024, pp. 45-49, https://www.sec.gov/Archives/edgar/data/1819848/000181984824000125/joby-20231231.htm; FY24 2024 10-K, filed Feb. 27, 2025, pp. 50-53, https://www.sec.gov/Archives/edgar/data/1819848/000181984825000196/joby-20241231.htm; FY25 2025 10-K, filed Feb. 26, 2026, pp. 52-56, https://www.sec.gov/Archives/edgar/data/1819848/000181984826000160/joby-20251231.htm
+PP&E, net                                            103.43          120.954          146.571
+  Sources: FY23 2023 10-K, filed Feb. 26, 2024, pp. 45-49, https://www.sec.gov/Archives/edgar/data/1819848/000181984824000125/joby-20231231.htm; FY24 2024 10-K, filed Feb. 27, 2025, pp. 50-53, https://www.sec.gov/Archives/edgar/data/1819848/000181984825000196/joby-20241231.htm; FY25 2025 10-K, filed Feb. 26, 2026, pp. 52-56, https://www.sec.gov/Archives/edgar/data/1819848/000181984826000160/joby-20251231.htm
+Stockholders' equity                               1034.362          912.363         1409.713
+  Sources: FY23 2023 10-K, filed Feb. 26, 2024, pp. 45-49, https://www.sec.gov/Archives/edgar/data/1819848/000181984824000125/joby-20231231.htm; FY24 2024 10-K, filed Feb. 27, 2025, pp. 50-53, https://www.sec.gov/Archives/edgar/data/1819848/000181984825000196/joby-20241231.htm; FY25 2025 10-K, filed Feb. 26, 2026, pp. 52-56, https://www.sec.gov/Archives/edgar/data/1819848/000181984826000160/joby-20251231.htm
+
+Hand-confirmed: FY2025 revenue $53.425M and FY2025 PP&E $146.571M were read directly from the FY2025 10-K.
+
+RATIO TABLE
+Ratio                                                      FY2023                 FY2024                 FY2025
+Gross margin                                               80.62%                 50.74%                 45.10%
+  Source/basis: Calculated from revenue and cost of revenue in each cited 10-K
+SG&A / gross profit                                    12,725.60%            173,430.43%                674.72%
+  Source/basis: Calculated; early revenue makes this ratio non-comparable
+Inventory days                                 N/A � no inventory     N/A � no inventory     N/A � no inventory
+  Source/basis: No inventory balance reported in the cited balance sheets
+Depreciation / ending PP&E                                 23.59%                 24.55%                 22.86%
+  Source/basis: P&E note: $24.4M/$103.430M; $29.7M/$120.954M; $33.5M/$146.571M
+Capex: filing cash-flow field                            $30.597M               $40.617M               $53.918M
+  Source/basis: Purchases of property and equipment in each 10-K cash-flow statement
+Capex: data-provider field                             Unresolved             Unresolved             Unresolved
+  Source/basis: No data-provider figure is treated as fact; the filing figure above is used
+Effective tax rate                                   -0.03% (N/M)           -0.02% (N/M)           -0.14% (N/M)
+  Source/basis: Reported income-tax expense / loss before tax; negative denominators make the result not meaningful
+Reported revenue growth                    N/M (base-year revenue zero)                -86.82%             39,183.09%
+  Source/basis: Calculated from reported revenue; small bases make it non-comparable
+Organic / same-store growth disclosed      Unresolved � not disclosed Unresolved � not disclosed Unresolved � not disclosed
+  Source/basis: Joby is not a store-based business; no same-store metric found in these 10-Ks
+
+ASSUMPTION SET
+Value                                      Label      Reason
+FY2025 opening cash $1,407.916M            History    Cash, cash equivalents, plus short-term investments reported on the FY2025 balance sheet; grouped as cash in this simplified model.
+FY2025 opening PP&E $146.571M              History    Reported net property and equipment at December 31, 2025.
+FY2025 opening other assets $240.582M      History    Total assets less cash and PP&E; grouped solely to keep the simplified model tied to the filing.
+FY2025 opening liabilities $385.356M       History    Reported total liabilities at December 31, 2025.
+FY2025 opening equity $1,409.713M          History    Reported total stockholders' equity at December 31, 2025.
+FY2025 shares 915.077M                     History    Shares issued and outstanding at December 31, 2025.
+2026-30 revenue: 75/300/800/1,800/3,500    Judgment   I model a staged launch and route build-out, not a percentage growth rate on a tiny pre-commercial revenue base. Certification, fleet deployment, and customer demand would change it.
+2026-30 gross margin: 35/40/45/50/55%      Judgment   Early operations should carry low utilization and fixed operating costs; margin improves only as routes and aircraft utilization scale. Actual service pricing, maintenance, and load factor data would change it.
+2026-30 R&D: 650/700/775/850/900           Judgment   Engineering, certification, manufacturing-readiness, and autonomy work remain material throughout the forecast. A certification decision or a disclosed production plan would change it.
+2026-30 SG&A: 190/240/325/425/525          Judgment   Commercial operations require selling, dispatch, regulatory, and corporate infrastructure. A disclosed launch geography or staffing plan would change it.
+2026-30 capex: 90/125/180/240/300          Judgment   Fleet, tooling, facilities, and operating infrastructure must grow with launch. Company guidance or signed fleet/facility commitments would change it.
+Depreciation = 22.86% of opening PP&E      History    FY2025 property-and-equipment depreciation of $33.5M divided by FY2025 ending PP&E of $146.571M; held constant as a simplification.
+21% cash tax rate on positive pretax income Judgment  Joby has losses and a tax rate is not meaningful historically. I use the U.S. federal statutory rate only after profitability; tax attributes and foreign mix would change it.
+$300M cash floor                            Judgment   I retain a large buffer because Joby is pre-commercial and depends on continued development spending. A funded runway plan or contracted cash inflows would change it.
+Equity funding at $6.22/share               Judgment   The model raises only what is needed to preserve the cash floor, at the September 24, 2026 quoted price. A future offering price, debt financing, or strategic investment would change it.
+No floor plan                                History    None: Joby reported no inventory in its FY2023-25 balance sheets and is not a vehicle dealer; dealer floor-plan debt is inapplicable.
+13% cost of equity                           Judgment   A pre-profit aerospace company has unusually high execution, regulatory, and dilution risk. A defensible beta/capital-structure analysis would change it.
+3% terminal growth                           Judgment   This is a mature-economy long-run constraint, not management guidance. A sustainable mature aviation growth outlook would change it.
+$6.22 market quote (Sept. 24, 2026)         History    The observed market comparison quote is not used to produce the model value; it is shown only for the required same-share-count question.
+
+FIVE-YEAR PRO FORMA � USD MILLIONS EXCEPT SHARES
+  Year    Revenue   Net income      Capex   Equity raise         Cash     Shares M      Check
+  2026       75.0       -847.2       90.0            0.0        504.2        915.1        0.0
+  2027      300.0       -866.4      125.0          740.8        300.0       1034.2        0.0
+  2028      800.0       -804.4      180.0          920.0        300.0       1182.1        0.0
+  2029     1800.0       -465.8      240.0          615.0        300.0       1281.0        0.0
+  2030     3500.0        296.3      300.0            0.0        421.2       1281.0       -0.0
+
+CHECK BLOCK: every year has a $0.0M gap and cash at or above the $300M floor.
+Revolver: none. Joby has no dealer floor-plan line; funding need is modeled as external equity issuance, which causes dilution.
+Illustrative value: $-1,811.1M equity value / 1,281.0M projected shares = $-1.41 per share.
+On the same projected share count, the model says $-1.41 per share while JOBY was quoted at $6.22 on September 24, 2026 (intraday quote; replace with the close if submitting later) � which commercialization, dilution, or discount-rate assumption explains the difference?
+
+PARTNER REVIEW � UNRESOLVED UNTIL A REAL PARTNER ADDS THEIR WORDS
+Partner attack to record: Why assume revenue reaches $3.5B by 2030 when the company has not guided that number, and what evidence would make you reduce it?
+My answer: I used it as an explicit scenario endpoint rather than guidance because the current $53.4M revenue base cannot be extrapolated mechanically. I would reduce it if certification, fleet production, route approvals, or service demand lag the staged launch required by the forecast.
+My attack for my partner: Your equity-issue price should not simply equal today's quote; why is that price achievable after several cash-burn years, and what evidence would make you use a discount or debt instead?
+Partner answer: [Replace this line with your partner's actual two-sentence answer before submitting.]

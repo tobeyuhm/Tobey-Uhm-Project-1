@@ -1,0 +1,23 @@
+# Joby Aviation sources
+
+Accessed September 3, 2026. Citations in the report use these labels.
+
+S1. [FY2023 Form 10-K, filed February 27, 2024](https://www.sec.gov/Archives/edgar/data/1819848/000181984824000125/joby-20231231.htm) — SEC primary filing; historical baseline.
+
+S2. [FY2024 Form 10-K, filed February 27, 2025](https://www.sec.gov/Archives/edgar/data/1819848/000181984825000196/joby-20241231.htm) — SEC primary filing; FY2023/FY2024 revenue, R&D, and liquidity.
+
+S3. [FY2025 Form 10-K, filed February 27, 2026](https://www.sec.gov/Archives/edgar/data/1819848/000181984826000160/joby-20251231.htm) — SEC primary filing; Item 7 MD&A, FY2025 performance, revenue composition, liquidity, and risk.
+
+S4. [Q2 2026 Form 10-Q, filed August 6, 2026](https://www.sec.gov/Archives/edgar/data/1819848/000181984826000435/joby-20260630.htm) — SEC primary filing; Item 2 MD&A, Q2 and six-month operating results.
+
+S5. [Joby press-release index](https://www.jobyaviation.com/news/category/press-releases) — company announcements on manufacturing, infrastructure, and UK partnerships.
+
+S6. [Axios, “Joby builds defense muscle with $500M buy of Resonant Sciences,” August 11, 2026](https://www.axios.com/2026/08/11/joby-resonant-defense-acquisition-ohio) — independent reporting on the announced acquisition consideration and CEO comments.
+
+S7. [Q2 2026 earnings-call transcript, August 12, 2026](https://www.fool.com/earnings/call-transcripts/2026/08/12/joby-aviation-joby-q2-2026-earnings-call-transcript/) — CEO/CFO commentary, guidance, liquidity, type-certification, eIPP, and manufacturing statements.
+
+## Source-use notes
+
+- S1-S4 are SEC primary filings. Financial-statement and MD&A claims are sourced to them.
+- S5 and S7 are company/management communications. Forecasts and plans are attributed to management and should be rechecked in subsequent SEC filings.
+- S6 supports the reported acquisition announcement and consideration, not an assessment of value creation.

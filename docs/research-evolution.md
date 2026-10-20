@@ -2,6 +2,8 @@
 
 Tobey Uhm · Edition A baseline of record: Brightspace "Lab 03 — Project 1 Valuation Edition A", attempt 1 of 3, written Sept. 1, 2026, 2:30–2:31 PM ET (receipt transcription in the evidence package). The local Edition A file was created Sept. 1, 2026, 2:30:21 PM ET; SHA-256 `CDF3C3529352D722F0116822F4522BBF9BDE875B1E719A861A1A41465C6B6F99`. It is reproduced below **unchanged**.
 
+**Student attestation (recorded Oct. 19, 2026):** I attest that Edition A was written without generative-AI assistance before the Brightspace receipt. — Tobey Uhm
+
 ---
 
 ## Edition A — unchanged Brightspace baseline (verbatim)

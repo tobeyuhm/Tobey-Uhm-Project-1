@@ -1,0 +1,32 @@
+{
+  "model": "Joby Aviation five-year commercialization pro forma",
+  "company": "Joby Aviation, Inc. (JOBY)",
+  "run_command": "py joby_proforma_2026.py",
+  "base_case": true,
+  "units": "USD millions except per-share data and shares",
+  "forecast_years": [2026, 2027, 2028, 2029, 2030],
+  "opening_fy2025": {
+    "cash_cash_equivalents_and_short_term_investments": 1407.916,
+    "net_ppe": 146.571,
+    "other_assets": 240.582,
+    "liabilities": 385.356,
+    "stockholders_equity": 1409.713,
+    "shares_outstanding_millions": 915.076698
+  },
+  "forecast_assumptions": {
+    "revenue": [75.0, 300.0, 800.0, 1800.0, 3500.0],
+    "gross_margin": [0.35, 0.4, 0.45, 0.5, 0.55],
+    "research_and_development": [650.0, 700.0, 775.0, 850.0, 900.0],
+    "sga": [190.0, 240.0, 325.0, 425.0, 525.0],
+    "capex": [90.0, 125.0, 180.0, 240.0, 300.0],
+    "tax_rate": 0.21,
+    "depreciation_rate": 0.22855817317204632,
+    "minimum_cash": 300.0,
+    "equity_issue_price": 6.22,
+    "cost_of_equity": 0.13,
+    "terminal_growth": 0.03,
+    "market_price": 6.22,
+    "market_price_date": "September 24, 2026 (intraday quote; replace with the close if submitting later)"
+  },
+  "source": "Values frozen from joby_proforma_2026.py for the successful base-case run on September 29, 2026."
+}

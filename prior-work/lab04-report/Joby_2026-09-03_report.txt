@@ -1,0 +1,55 @@
+# Joby Aviation research report
+
+Company: Joby Aviation, Inc. (NYSE: JOBY)  
+Research date: September 3, 2026  
+Decision: initiate a position now, watch/defer, or do not initiate.
+
+## Reading method and evidence boundary
+
+I read the FY2025 Form 10-K MD&A (Item 7) first, then the June 2026 Form 10-Q MD&A (Item 2), before using the two prior annual reports as historical context. The 10-K and 10-Q are primary SEC filings; the earnings call, investor materials, and news coverage are attributed to their speakers or publishers and are not treated as audited evidence. [S1][S2][S3][S4][S5][S6][S7]
+
+## Three-minute partner briefing
+
+**What the company is.** Joby is developing all-electric vertical-takeoff-and-landing aircraft and intends to operate commercial passenger service. Its June 2026 10-Q says Q2 revenue came primarily from the acquired Blade passenger-service offering, third-party engineering services, and third-party leasing arrangements. [S4]
+
+**What looks good.** Reported liquidity rose from $932.851 million at December 31, 2024 to approximately $2.3 billion at June 30, 2026, according to the FY2024 10-K and Q2 2026 management materials. Management also reported its strongest quarter of progress in the fifth and final stage of FAA type certification, five aircraft flying, 12 additional aircraft in production, and expected first Texas eIPP flights in September. Those execution statements are management claims, not completed certification or proof of profitable service. [S2][S7]
+
+**What looks bad.** Joby has reported losses and negative operating cash flow since inception and says it expects them to continue until sustainable commercial operations begin. The core value question remains timing and scale of certified, paid eVTOL operations; current revenue is principally Blade-related rather than established Joby eVTOL-network revenue. [S3][S4]
+
+**Challenges, risks, and advantages.** The advantages are liquidity, an existing passenger-service platform through Blade, and Toyota-linked manufacturing plans. The risks are certification timing, manufacturing ramp, infrastructure, passenger economics, continuing cash use, and dilution. Joby reported $194.7 million of Q2 2026 R&D expense and $245.4 million net loss; management guided to $385-$415 million of cash use in the second half of 2026. [S4][S7]
+
+**Performance against its own history and outlook.** FY2023 revenue was $1.032 million; FY2024 revenue was $0.136 million and R&D was $477.156 million. FY2025 revenue rose to $53.4 million and R&D to $581.1 million, with the company attributing the revenue increase to Blade, DOD operations, demonstrations, and third-party engineering services. For Q2 2026, the company reported $38.639 million of revenue and management raised FY2026 revenue guidance to $115-$125 million. [S2][S3][S4][S7]
+
+## MD&A-first assessment
+
+The FY2025 MD&A states that Joby has incurred net losses and negative operating cash flow since inception and expects both to continue for the foreseeable future until sustainable commercial operations begin. It also identifies historical funding from the merger, equity issuance, and convertible notes. This makes cash and short-term investments a source of runway, not automatically surplus value in an enterprise-to-equity bridge. [S3]
+
+The June 2026 10-Q MD&A reports $38.6 million of Q2 revenue, up from essentially zero a year earlier, but identifies the increase as Blade passenger-service revenue after the acquisition, engineering services, and rental income. It reports Q2 R&D expense of $194.7 million, up 43% year over year, and six-month R&D of $372.1 million, up 37%. The filing therefore supports a larger reported revenue base, but does not establish mature eVTOL fleet economics. [S4]
+
+## Recent execution and capital-allocation developments
+
+On the Q2 2026 call, CEO JoeBen Bevirt said the company intended to complete its first eIPP flights in Texas in September and described a pathway, with FAA oversight, from pilot-only flights toward nonpaying and eventually paying passengers. This is a stated plan, not evidence that paid service has commenced. [S7]
+
+Management said the Toyota joint venture was intended to support production scale and expected Toyota's $250 million direct investment to close later in 2026 or early in 2027. Company announcements also list an Atoms vertiport partnership and a Virgin Atlantic UK agreement. [S7][S5]
+
+Axios reported Joby's announced $500 million Resonant Sciences acquisition would be funded with $450 million in cash and $50 million in common stock. This may add defense capability, but it also adds a material cash-and-equity allocation and integration question while Joby remains pre-scale in eVTOL; the second sentence is an investment inference from the reported consideration and the SEC disclosures above. [S6][S3]
+
+## What must be true before a valuation call can be durable
+
+1. FAA milestones and pilot activity must turn into authorized, repeatable paid service rather than demonstrations or nonpaying flights. [S7]
+2. A model must separately forecast Blade revenue and Joby's own eVTOL network: launch date, fleet deliveries, utilization, fare, load factor, maintenance, pilots, vertiports, capex, and working capital. The need for separation follows the revenue composition disclosed in the 10-K and 10-Q. [S3][S4]
+3. A per-share valuation must reconcile cash use, Toyota's proposed investment, convertibles, warrants, earnouts, compensation dilution, and the reported Resonant consideration. [S3][S6][S7]
+
+## Current call
+
+**Watch / defer (wait for more information).** Joby has gained reported liquidity and a service-revenue platform while management describes progress in certification, manufacturing, and pilot operations; however, the evidence still does not show certified, scalable, cash-generative Joby eVTOL service, and management continues to guide to material cash use. [S3][S4][S7]
+
+**What would change it:** I would move to **initiate (buy)** only after independently verifiable certification and paid-service progress, plus a fully diluted FCFF case that clears the market price with an adequate margin of safety. [S3][S4][S7]
+
+---
+
+This report was written for FIN 43900 (AI Finance Applications, Purdue) as a learning exercise. It is not investment research and it is not financial advice.
+
+AI assistance: drafted with Codex, resumed from my Lab 03 session; sources gathered and verified by me; the judgments are mine.
+
+Any remaining errors are my own.
