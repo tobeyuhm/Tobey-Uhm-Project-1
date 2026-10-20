@@ -16,7 +16,7 @@ A **buy-side investment committee with no current position** must decide whether
 ## Setup and run (clean machine, ~3 minutes)
 
 ```bash
-git clone <repository-url> Joby-research
+git clone https://github.com/tobeyuhm/Tobey-Uhm-Project-1 Joby-research
 cd Joby-research
 python -m venv .venv
 .venv\Scripts\activate          # macOS/Linux: source .venv/bin/activate
