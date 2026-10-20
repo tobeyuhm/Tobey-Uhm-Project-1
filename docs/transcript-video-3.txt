@@ -1,10 +1,10 @@
 PROJECT: FIN 43900 Project 1 — Joby Aviation (JOBY)
 STUDENT: Tobey Uhm
 VIDEO: 3 Committee Presentation
-STABLE VIDEO ID/URL: [paste YouTube unlisted URL]
-TITLE: [paste exact YouTube title]
-DURATION: [m:ss]
-REPOSITORY COMMIT/FROZEN VERSION: [final commit hash]
+STABLE VIDEO ID/URL: https://youtu.be/YQ_-eSaO52A
+TITLE: Tobey Uhm Project 1 Video 3
+DURATION: 3:31
+REPOSITORY COMMIT/FROZEN VERSION: tag project1-submission
 
 [REPLACE EVERYTHING BELOW with the corrected YouTube captions of what you actually said.
 Correct finance terms (FCFF, WACC, eVTOL), tickers (JOBY, ACHR, EVEX), names (Eric Boyd), and every number.
