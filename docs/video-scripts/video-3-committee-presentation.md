@@ -2,7 +2,7 @@
 
 **Title for YouTube:** JOBY Project 1 — Video 3: Investment-Committee Presentation
 **On screen:** webcam thumbnail plus the **live app** (`streamlit run app.py`), which is required as the main delivery. Lead with the decision.
-**About 370 spoken words.** At a slow pace that is about 3:25 of talking, which leaves time to scroll and move the sliders.
+**About 265 spoken words.** At a slow pace that is about 2:25 of talking, which leaves about 2½ minutes to scroll and move the sliders.
 
 ---
 

@@ -2,7 +2,7 @@
 
 **Title for YouTube:** JOBY Project 1 — Video 2: Codebase and Validation Walkthrough
 **On screen:** webcam thumbnail, VS Code with `Joby-research` open, and a terminal at the repo root.
-**About 360 spoken words.** At a slow pace (~110 words a minute) that is about 3:20 of talking, which leaves about a minute for scrolling and letting the tests run.
+**About 310 spoken words.** At a slow pace (~110 words a minute) that is about 2:50 of talking, which leaves about 2 minutes for scrolling and letting the tests run.
 **Before recording:** write and commit `docs/locked-prediction.md`.
 
 ---
